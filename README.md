@@ -39,13 +39,21 @@ Lancez un IDE comme Visual Studio Code et dans l'onglet terminal il vous suffit 
 ```
 $ npm install
 ```
-Il vous suffit maintenant de build le projet 
+Il vous suffit maintenant de build le projet :
 ```
 $ npm run build
 ```
-Et pour finir de le lancer
+## Lancement
+Pour le lancement de l'application il vous suffit de taper la commande suivante :
 ```
 $ npm run start
 ```
 Le serveur est lancé sur votre port :3000, il vous suffit d'aller sur http://localhost:3000/ ou http://127.0.0.1:3000/
 
+## Fonctionnalitée
+* Possibilitée de conversé avec ChatGPT
+![Chat Web Page](./img/chat.jpg)
+
+## Exemple d'utilisation
+## Status du projet
+## Sources
