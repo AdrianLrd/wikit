@@ -44,7 +44,7 @@ Il vous suffit maintenant de build le projet :
 ```
 $ npm run build
 ```
-Pour pouvoir utiliser l'application vous devez configurer votre clé d'API dans le fichier `server.js` remplacer `API_KEY` par votre clé
+Pour pouvoir utiliser l'application vous devez configurer votre clé d'API dans le fichier `server.js` remplacer `API_KEY` par votre clé à la ligne 10
 ![Change API KEY](./img/api_key.jpg)
 
 ## Lancement
@@ -63,5 +63,18 @@ L'utilisation du framework Fastify permet d'avoir des réponses rapide de l'API
 ![Exemple d'utilisation](./img/exempleUse.jpg)
 
 ## Status du projet
+L'objectif du projet est terminer.
+On pourrai rajouter des fonctionnalitées à l'application pour la rendre plus complète
+
 ## Commentaire et Retour
+## Point de difficulté
+-J'ai rencontré des difficulté principalement pour la création du serveur avec fastify, je n'avais jamais utilisé ce framework. Difficulté de trouver @fastify/static pour integrer ma page web
+
+## Commentaire
+J'avais déjà fais un projet similaire avec l'utilisation de socket.io.
+
 ## Sources
+* https://platform.openai.com/docs/guides/chat 
+* https://platform.openai.com/docs/api-reference/chat 
+* https://www.npmjs.com/package/@fastify/static
+* https://www.fastify.io/
