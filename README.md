@@ -5,7 +5,7 @@ Objectif du test technique : faire une page Web pour discuter avec l'IA conversa
 * [Technologies](#Technologies)
 * [Installation](#Installation)
 * [Lancement](##Lancement)
-* [Explication du Code](##Explication-du-Code)
+* [Explication du Code](#Explication-du-Code)
 * [Fonctionnalitée](#Fonctionnalitée)
 * [Exemple d'utilisation](#Exemple-d'utilisation)
 * [Status du projet](#Status-du-projet)
