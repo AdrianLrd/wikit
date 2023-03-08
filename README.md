@@ -70,7 +70,7 @@ Le serveur est géré par le fichier `server.js`, il utilise Fastify comme frame
 ![Serveur 2](./img/serveur2.jpg)
 
 ### index.html
-Voici à quoi correspond l'index de la page de l'application
+Voici à quoi correspond l'index de la page `index.html` de l'application
 ![Index html](./img/indexhtml.jpg)
 
 ## Fonctionnalitée
