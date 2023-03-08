@@ -5,9 +5,10 @@ Objectif du test technique : faire une page Web pour discuter avec l'IA conversa
 * Technologies
 * Installation
 * Lancement
-* Fonctionnalitées
+* Fonctionnalitée
 * Exemple d'utilisation
 * Status du projet
+* Commentaire et Retour
 * Sources
 
 ## Introduction
@@ -55,5 +56,9 @@ Le serveur est lancé sur votre port :3000, il vous suffit d'aller sur http://lo
 ![Chat Web Page](./img/chat.jpg)
 
 ## Exemple d'utilisation
+L'utilisation du framework Fastify permet d'avoir des réponses rapide de l'API
+![Exemple d'utilisation](./img/exempleUse.jpg)
+
 ## Status du projet
+## Commentaire et Retour
 ## Sources
