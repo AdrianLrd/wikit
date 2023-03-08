@@ -5,6 +5,7 @@ Objectif du test technique : faire une page Web pour discuter avec l'IA conversa
 * [Technologies](#Technologies)
 * [Installation](#Installation)
 * [Lancement](##Lancement)
+* [Explication du Code](##Explication%20du%20Code)
 * [Fonctionnalitée](#Fonctionnalitée)
 * [Exemple d'utilisation](#Exemple%20d'utilisation)
 * [Status du projet](#Status%20du%20projet)
@@ -53,6 +54,24 @@ Pour le lancement de l'application il vous suffit de taper la commande suivante 
 $ npm run start
 ```
 Le serveur est lancé sur votre port :3000, il vous suffit d'aller sur http://localhost:3000/ ou http://127.0.0.1:3000/
+
+## Explication du Code
+### Côté client
+Il s'agit du fichier `app.ts` codé en TypeScript qui fait toute la partie client de l'application.
+Il y a un event listener sur le bouton submit du form pour permettre d'envoyer la requête au serveur qui va récupérer la réponse de ChatGPT via l'API REST "Chat Completion" d'OpenAI
+![Client 1](./img/client1.jpg)
+![Client 2](./img/client2.jpg)
+![Client 3](./img/client3.jpg)
+![Client 4](./img/client4.jpg)
+
+### Côté serveur
+Le serveur est géré par le fichier `server.js`, il utilise Fastify comme framework serveur et Openai pour l'API
+![Serveur 1](./img/serveur1.jpg)
+![Serveur 2](./img/serveur2.jpg)
+
+### index.html
+Voici à quoi correspond l'index de la page de l'application
+![Index html](./img/indexhtml.jpg)
 
 ## Fonctionnalitée
 * Possibilité de converser avec ChatGPT
