@@ -67,10 +67,10 @@ L'objectif du projet est terminer.
 On pourrai rajouter des fonctionnalitées à l'application pour la rendre plus complète
 
 ## Commentaire et Retour
-## Point de difficulté
+### Point de difficulté
 -J'ai rencontré des difficulté principalement pour la création du serveur avec fastify, je n'avais jamais utilisé ce framework. Difficulté de trouver @fastify/static pour integrer ma page web
 
-## Commentaire
+### Commentaire
 J'avais déjà fais un projet similaire avec l'utilisation de socket.io.
 
 ## Sources
