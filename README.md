@@ -22,6 +22,7 @@ Pour la partie back, il fallait utiliser l'API REST "Chat Completion" d'OpenAI
 * Node.js v16.14.0
 * JavaScript ES2015
 * TypeScript v4.9.5
+* @types/node v18.14.6
 * Fastify v4.14.1
 * @Fastify/static v6.9.0
 * Openai v3.2.1
@@ -34,10 +35,17 @@ Pour installer le projet, vous devez utiliser Node.js
 https://nodejs.org/en/download/
 ```
 Recopier le dépot git en local.
-Ensuite il vous suffit d'installer les dépendances :
+Lancez un IDE comme Visual Studio Code et dans l'onglet terminal il vous suffit d'installer les dépendances :
 ```
-$ npm install tsc
-$ npm install fastify
-$ npm install @fastify/static
-$ npm install openai
+$ npm install
 ```
+Il vous suffit maintenant de build le projet 
+```
+$ npm run build
+```
+Et pour finir de le lancer
+```
+$ npm run start
+```
+Le serveur est lancé sur votre port :3000, il vous suffit d'aller sur http://localhost:3000/ ou http://127.0.0.1:3000/
+
