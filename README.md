@@ -1,7 +1,7 @@
 # Test technique Wikit
 Objectif du test technique : faire une page Web pour discuter avec l'IA conversationnelle d'OpenAI (le fameux ChatGPT).
 ## Table of Contents
-- [Introduction](##Introduction)
+* [Introduction](###Introduction)
 * Technologies
 * Installation
 * Lancement
@@ -11,7 +11,7 @@ Objectif du test technique : faire une page Web pour discuter avec l'IA conversa
 * Commentaire et Retour
 * Sources
 
-## Introduction
+### Introduction
 L'objectif de ce test technique était de pouvoir communiquer avec l'IA d'OpenAI (ChatGPT) via une page web.
 Pour la partie front il devait y avoir :
 * Un champ de saisie de message pour l'utilisateur
