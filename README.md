@@ -5,11 +5,11 @@ Objectif du test technique : faire une page Web pour discuter avec l'IA conversa
 * [Technologies](#Technologies)
 * [Installation](#Installation)
 * [Lancement](##Lancement)
-* [Explication du Code](##Explication%20du%20Code)
+* [Explication du Code](##Explication-du-Code)
 * [Fonctionnalitée](#Fonctionnalitée)
-* [Exemple d'utilisation](#Exemple%20d'utilisation)
-* [Status du projet](#Status%20du%20projet)
-* [Commentaire et Retour](#Commentaire%20et%20Retour)
+* [Exemple d'utilisation](#Exemple-d'utilisation)
+* [Status du projet](#Status-du-projet)
+* [Commentaire et Retour](#Commentaire-et-Retour)
 * [Sources](#Sources)
 
 ## Introduction
