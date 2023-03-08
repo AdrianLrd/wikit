@@ -44,6 +44,9 @@ Il vous suffit maintenant de build le projet :
 ```
 $ npm run build
 ```
+Pour pouvoir utiliser l'application vous devez configurer votre clé d'API dans le fichier `server.js` remplacer `API_KEY` par votre clé
+![Change API KEY](./img/api_key.jpg)
+
 ## Lancement
 Pour le lancement de l'application il vous suffit de taper la commande suivante :
 ```
