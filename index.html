@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <meta name="author" content="Adrian Lardon">
+
+    <meta property="og:type" content="website">
+
+    <link rel="stylesheet" href="src/css/index.css">
+
+
+    <title>Test technique</title>
+
+
+</head>
+
+<body>
+    <h1 class="appTitle">Test technique</h1>
+
+    <div class="divChat"> <!-- Div contenant la conversation du chat-->
+        <h3>Chat</h3>
+        <ul id="convoChat"></ul>
+    </div>
+
+    <footer class="footerApp"> <!--footer pour l'envoi de messages -->
+        <div id="divRequest">
+            <form id="formChat">
+                <input type="text" name="message" id="messageInput" placeholder="Votre message..." required />
+                <!--Input en required pour ne pas envoyer de message vide-->
+                <div class="request">
+                    <button id="submitForm" type="submit">Envoyer</button> <!--Bouton submit-->
+                    <div class="loader none"></div> <!--Animation de chargement-->
+                </div>
+            </form>
+        </div>
+    </footer>
+    <script type="module" src="dist/app.js"></script> <!--Script de l'application-->
+</body>
+
+</html>
