@@ -15,7 +15,7 @@ Objectif du test technique : faire une page Web pour discuter avec l'IA conversa
 L'objectif de ce test technique était de pouvoir communiquer avec l'IA d'OpenAI (ChatGPT) via une page web.
 Pour la partie front il devait y avoir :
 * Un champ de saisie de message pour l'utilisateur
-* Un bouton d'envoi de message
+* Un bouton d'envoi de messages
 * L'affichage de la conversation avec les messages utilisateur et les réponses de ChatGPT.
 Pour la partie back, il fallait utiliser l'API REST "Chat Completion" d'OpenAI
 
@@ -35,7 +35,7 @@ Pour installer le projet, vous devez utiliser Node.js
 ```
 https://nodejs.org/en/download/
 ```
-Recopier le dépot git en local.
+Recopier le dépôt git en local.
 Lancez un IDE comme Visual Studio Code et dans l'onglet terminal il vous suffit d'installer les dépendances :
 ```
 $ npm install
@@ -55,23 +55,23 @@ $ npm run start
 Le serveur est lancé sur votre port :3000, il vous suffit d'aller sur http://localhost:3000/ ou http://127.0.0.1:3000/
 
 ## Fonctionnalitée
-* Possibilitée de conversé avec ChatGPT
+* Possibilité de converser avec ChatGPT
 ![Chat Web Page](./img/chat.jpg)
 
 ## Exemple d'utilisation
-L'utilisation du framework Fastify permet d'avoir des réponses rapide de l'API
+L'utilisation du framework Fastify permet d'avoir des réponses rapides de l'API
 ![Exemple d'utilisation](./img/exempleUse.jpg)
 
 ## Status du projet
-L'objectif du projet est terminer.
-On pourrai rajouter des fonctionnalitées à l'application pour la rendre plus complète
+L'objectif du projet est terminé.
+On pourrait rajouter des fonctionnalités à l'application pour la rendre plus complète.
 
 ## Commentaire et Retour
-### Point de difficulté
--J'ai rencontré des difficulté principalement pour la création du serveur avec fastify, je n'avais jamais utilisé ce framework. Difficulté de trouver @fastify/static pour integrer ma page web
+### Point de difficultés
+J'ai rencontré des difficultés principalement pour la création du serveur avec fastify, je n'avais jamais utilisé ce framework. Difficulté de trouver @fastify/static pour intégrer dans ma page web
 
 ### Commentaire
-J'avais déjà fais un projet similaire avec l'utilisation de socket.io.
+J'avais déjà fait un projet similaire avec l'utilisation de socket.io. Mais j'ai toujours voulu essayer d'utiliser l'API de OpenAI et grâce à ce projet j'ai pu le tester tout en apprenant de nouvelles choses.
 
 ## Sources
 * https://platform.openai.com/docs/guides/chat 
