@@ -1,6 +1,6 @@
 # Test technique Wikit
 Objectif du test technique : faire une page Web pour discuter avec l'IA conversationnelle d'OpenAI (le fameux ChatGPT).
-## Table of Contents
+## Sommaire
 * [Introduction](#Introduction)
 * [Technologies](#Technologies)
 * [Installation](#Installation)
